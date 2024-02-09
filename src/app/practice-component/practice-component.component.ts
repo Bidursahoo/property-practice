@@ -8,5 +8,10 @@ import { Component } from '@angular/core';
   styleUrl: './practice-component.component.css'
 })
 export class PracticeComponentComponent {
-
+  counter : number = 0;
+  name: string = 'bidur'
+  increseNUmber(){
+    this.counter+=1;
+    alert("clicked me ")
+  }
 }
